@@ -250,25 +250,6 @@ int main()
         cout << "member " << i <<  " : " << member[i].force.netForce << "N" << endl;
     }
 
-    /*
-
-    vector <int> deter; 
-    vector <int> undeter = {0, 5};
-
-    member_forces(joint, support, member, 0, deter, undeter);
-
-    cout << member[0].force.netForce << " N    ";
-    cout << member[5].force.netForce << " N    " <<endl;
-
-    deter = {5};
-    undeter = {2, 6};
-
-    member_forces(joint, support, member, 3, deter, undeter);
-
-    cout << member[2].force.netForce << " N    ";
-    cout << member[6].force.netForce << " N    " <<endl;
-    */
-
 }
 
 // For now calculates only orthogonal reactions for a single external force applied on the truss
