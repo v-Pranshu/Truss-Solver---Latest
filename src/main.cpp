@@ -394,6 +394,3 @@ void gauss_jordan(double A[nDim][nDim], double B[nDim][1], double F[nDim][1]){
     F[0][0] = a-(F[1][0]*c);
 }
 
-
-
-
