@@ -1,4 +1,5 @@
 #include "mem.hpp"
+#pragma once
 
 class Joints{
     public:
