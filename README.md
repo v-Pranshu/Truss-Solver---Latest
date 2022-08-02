@@ -9,6 +9,7 @@ Basically forms an AX = B type equation for each joint of the truss, here 'X' ma
 ## To Use
  1. Download the zipped repo
  2. Extract the repo and cd to extracted location in terminal
+ 3. Save your .geo file in the src directory.
  3. Type 'make' to compile the program
  4. Type './SolveTruss' to run the program
   
