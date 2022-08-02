@@ -14,7 +14,7 @@ Basically forms an AX = B type equation for each joint of the truss, here 'X' ma
  4. Type './SolveTruss' to run the program
   
  ## Updates
- -> You can now give inputs to the solver through a .geo file, that will be generated through GMSH software. This means you can basically draw the geometry in GMSH by       placing points to represent joints, and lines that will represent the members. 
+ -> You can now give inputs to the solver through a .geo file, that will be generated through GMSH software. This means you can basically draw the geometry in GMSH by       placing points to represent joints, and lines that will represent the members. Joints that are acting as supports can also be defined by adding a physical group in       GMSH and selecting the required points.
  
 GMSH Page link that contains documentation and download links: https://gmsh.info/
 
