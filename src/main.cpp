@@ -6,6 +6,7 @@
 #include "jo.hpp"
 #include "supp.hpp"
 #include "TrussSolve.hpp"
+#include "ReadInputs.hpp"
 
 
 using namespace std;
@@ -17,9 +18,10 @@ Forces force[numForces];
 
 int main(){
     //set_jsInputs(joint, support, force);
-    set_MemberInputs(member);
-    set_jointInputs(joint);
     set_SupportForceInputs(support, force);
+    //set_MemberInputs(member);
+    //set_jointInputs(joint);
+    getInputs(member, joint, support);
 
     for(int i = 0; i<numMembers; i++){
         double diffX = (joint[member[i].start_point].x_coord - joint[member[i].end_point].x_coord);

@@ -6,7 +6,7 @@ PATHSC = src/
 # Using C++20 standard
 CXXFLAGS := -std=c++2a
 
-OBJS = Inputs.o mem.o jo.o supp.o Truss.o main.o
+OBJS = Inputs.o mem.o jo.o supp.o Truss.o ReadInputs.o main.o
 
 all:Solve
 
@@ -24,6 +24,9 @@ supp.o: supp.hpp supp.cpp
 
 Truss.o: TrussSolve.hpp TrussSolve.cpp
 	$(CXX) $(CXXFLAGS) -c TrussSolve.cpp
+
+ReadInputs.o: ReadInputs.hpp ReadInputs.cpp
+	$(CXX) $(CXXFLAGS) -c ReadInputs.cpp
 
 main.o: main.cpp
 	$(CXX) $(CXXFLAGS) -c main.cpp

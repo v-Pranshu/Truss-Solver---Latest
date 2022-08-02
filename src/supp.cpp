@@ -14,7 +14,7 @@ void set_SupportForceInputs(Supports support[numSupports], Forces force[numForce
     force[1].components.x_comp = 0;
     force[1].components.y_comp = -50;
 
-    support[0].joint_index = 0;
-    support[1].joint_index = 2;
+    //support[0].joint_index = 0;
+    //support[1].joint_index = 2;
 
 }

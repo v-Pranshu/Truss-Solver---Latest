@@ -82,6 +82,7 @@ void solveTruss(Forces force[numForces], Joints joint[numJoints], Supports suppo
 
     calculateReactions(force, joint, support);
 
+    cout << endl;
     cout << "Reaction Force 2: " << support[1].reaction_force.y_comp << "N" << endl;
     cout << "Reaction Force 1: " << support[0].reaction_force.y_comp << "N" << endl;
 
