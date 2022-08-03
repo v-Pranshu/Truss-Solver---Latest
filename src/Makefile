@@ -1,3 +1,4 @@
+#Makefile for compiling the code
 
 CXX = g++
 # Path to source code
