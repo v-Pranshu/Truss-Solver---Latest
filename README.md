@@ -1,3 +1,4 @@
+![Screenshot (562)](https://user-images.githubusercontent.com/79853965/182521671-788ddcb6-6559-438b-9302-8cb0db64ba0b.png)
 # Truss-Solver
 
 Currently solves trusses with two static supports that are fixed on the ground and face upwards, need to still incorporate more options for support.
