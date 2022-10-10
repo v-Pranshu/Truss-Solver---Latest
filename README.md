@@ -12,8 +12,8 @@ Basically forms an AX = B type equation for each joint of the truss, here 'X' ma
  1. Download the zipped repo
  2. Extract the repo and cd to extracted location in terminal
  3. Save your geometry file, that was created through GMSH, in the src directory.
- 3. Type 'make' to compile the program
- 4. Type './SolveTruss' to run the program
+ 3. Enter 'make' to compile the program
+ 4. Enter './SolveTruss' to run the program
   
  ## Updates
  -> You can now give inputs to the solver through a .geo file, that will be generated through GMSH software. This means you can basically draw the geometry in GMSH by       placing points to represent joints, and lines that will represent the members. Joints that are acting as supports can also be defined by adding a physical group in       GMSH and selecting the required points.
